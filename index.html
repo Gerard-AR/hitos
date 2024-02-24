@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Próximamente</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+            overflow: hidden; /* Agrega esto para evitar que el fondo animado se desborde>*/
+        }
+
+        #logo {
+            max-width: 500%;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .text-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 300%);
+            color: #f8f8f8;
+            background: #000000;
+            font-weight: bold;
+            padding: 15px;
+            border-left: 8px solid #e9a81d;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+        .social-icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+        }
+
+.social-icons img {
+    width: 60px; /* Ajusta el tamaño de los iconos según sea necesario */
+    margin: 0 10px; /* Ajusta el margen entre los iconos según sea necesario */
+}
+</style>
+</head>
+<body>
+<!-- Agrega la animación de fondo aquí -->
+<div class="area">
+<ul class="circles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+ <!-- Aquí colocamos el logotipo y el texto dentro de la animación -->
+ <img id="logo" src="https://raw.githubusercontent.com/Gerard-AR/cazaofertas/main/logofinal1.png" alt="Logo">
+ <div class="text-container">
+     <p>Próximamente</p>
+ </div>
+ <div class="social-icons">
+         <img src="https://raw.githubusercontent.com/Gerard-AR/cazaofertas/main/insta1.png" alt="Instagram">
+         <img src="https://raw.githubusercontent.com/Gerard-AR/cazaofertas/main/tick1.png" alt="TikTok">
+
+
+</div>
+</body>
+</html>
